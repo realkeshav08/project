@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HeritageHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo"></div>
+            <ul class="nav-links">
+                <li><a href="#">Destination</a></li>
+                <li><a href="#">Event Planner</a></li>
+                <li><a href="#">Hotels</a></li>
+                <li><a href="#">Packages</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Parallax Section -->
+    <div class="parallax-container">
+        <div class="parallax layer" data-speed="5"></div>
+        <div class="parallax layer" data-speed="10"></div>
+        <div class="parallax layer" data-speed="15"></div>
+        <div class="parallax layer" data-speed="20"></div>
+        <div class="parallax layer" data-speed="25"></div>
+        <div class="parallax layer" data-speed="30"></div>
+
+        <!-- Centered Text Overlay -->
+        <div class="centered-text">
+            Have a taste of Indian culture
+        </div>
+    </div>
+
+    <!-- New Section for Cards -->
+<section class="info-cards">
+    <div class="card">
+        <h2>Most visited places</h2>
+        <p>Discover the most popular destinations.</p>
+    </div>
+    <div class="card">
+        <h2>Best of seasons</h2>
+        <p>Explore the best places to visit by season.</p>
+    </div>
+    <div class="card">
+        <h2>Trending places</h2>
+        <p>Check out the trending destinations right now.</p>
+    </div>
+</section>
+
+
+    <!-- Chatbot "Ask Tara" Button -->
+    <div class="chatbot-btn">
+        <button id="ask-tara-btn">Ask Tara</button>
+    </div>
+
+
+    <!-- Plans Section -->
+<section id="travel-plans" class="plans-section">
+    <h2>Choose Your Travel Plan</h2>
+    <div class="cards-container">
+        <!-- GOLD PLAN -->
+        <div class="plan-card">
+            <h3>Gold Plan</h3>
+            <p>Includes access to exclusive travel locations, 5-star hotel stays, and guided tours.<br>For 11 Days.</p>
+            <button class="plan-btn">Explore Gold Plan</button>
+        </div>
+        
+        <!-- PLATINUM PLAN -->
+        <div class="plan-card">
+            <h3>Platinum Plan</h3>
+            <p>Experience luxury with private tours, gourmet meals, and premium accommodations.<br>For 18 Days.</p>
+            <button class="plan-btn">Explore Platinum Plan</button>
+        </div>
+        
+        <!-- DIAMOND PLAN -->
+        <div class="plan-card">
+            <h3>Diamond Plan</h3>
+            <p>The ultimate travel experience with bespoke itineraries, private jets, and VIP treatment.<br>For 28 Days</p>
+            <button class="plan-btn">Explore Diamond Plan</button>
+        </div>
+    </div>
+</section>
+
+<!-- Facts Section (New Page) with Slideshow -->
+<section id="facts-section" class="facts-section">
+    <h2>Discover India: Facts about States, Heritage Places, and Forts</h2>
+    
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+        <!-- Slide 1: States of India -->
+        <div class="mySlides fade">
+            <img src="states-image.jpg" class="slide-image" alt="States of India">
+            <div class="text-content">
+                <h3>States of India</h3>
+                <p>Learn interesting facts about India's diverse states, their culture, and traditions.</p>
+            </div>
+        </div>
+
+        <!-- Slide 2: Heritage Places -->
+        <div class="mySlides fade">
+            <img src="heritage-image.jpg" class="slide-image" alt="Heritage Places of India">
+            <div class="text-content">
+                <h3>Heritage Places</h3>
+                <p>Discover the heritage sites that showcase India's rich history and architecture.</p>
+            </div>
+        </div>
+
+        <!-- Slide 3: Forts of India -->
+        <div class="mySlides fade">
+            <img src="forts-imag.jpg" class="slide-image" alt="Forts of India">
+            <div class="text-content">
+                <h3>Forts of India</h3>
+                <p>Step into history with stories of India's ancient and majestic forts.</p>
+            </div>
+        </div>
+
+        <!-- Next and Previous Buttons -->
+         
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <!-- Dots for the slideshow navigation -->
+    <div class="dots-container">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+</section>
+
+
+
+
+    <section class="content">
+        <h1>Welcome to the Event</h1>
+        <p>Add your website content here...</p>
+    </section>
+</body>
+</html>
